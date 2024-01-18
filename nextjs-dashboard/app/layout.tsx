@@ -1,5 +1,6 @@
-import './ui/global.css';
-import {montserrat} from './ui/fonts';
+import '@/app/ui/global.css';
+import { inter } from '@/app/ui/fonts';
+ 
 export default function RootLayout({
   children,
 }: {
@@ -7,11 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} antialiased`}>
-        Esto es parte del Layout
-        {children}
-        <footer> Hecho con amor por Octavio</footer>
-      </body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
