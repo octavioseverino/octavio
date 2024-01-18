@@ -10,7 +10,7 @@ export default function RootLayout({
       <body className={`${montserrat.className} antialiased`}>
         Esto es parte del Layout
         {children}
-        <footer> Hecho con amor por Bebo</footer>
+        <footer> Hecho con amor por Octavio</footer>
       </body>
     </html>
   );
